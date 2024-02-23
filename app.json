@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "focusflowx-2.0-react-native",
+    "slug": "focusflowx-2.0-react-native"
+  }
+}
