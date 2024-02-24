@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
 import { Stack, useRouter } from "expo-router";
+import HomePage from "./components/Home/homePage";
 
 const Home = () => {
   const router = useRouter();
@@ -9,10 +10,7 @@ const Home = () => {
   return (
     <>
       <SafeAreaView>
-        <View>
-          <Text>Hello Adrian</Text>
-          <Text>Find your perfect job</Text>
-        </View>
+        <HomePage />
       </SafeAreaView>
     </>
   );
